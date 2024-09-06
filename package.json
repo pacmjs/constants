@@ -1,17 +1,17 @@
 {
-  "name": "constants",
-  "version": "1.0.0",
-  "description": "official version_cleaner functions for the PACM package manager",
-  "main": "../../dist/pkgs/constants/index.js",
-  "scripts": {
-    "build": "tsc"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^22.5.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
-  }
+    "name": "@pacm/constants",
+    "version": "1.0.0",
+    "main": "../../dist/pkgs/constants/index.js",
+    "description": "official constants functions for the PACM package manager",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^22.5.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    }
 }
