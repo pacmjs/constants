@@ -22,3 +22,16 @@ export const GLOBAL_PM_DIR = (() => {
             throw new Error("Unsupported operating system");
     }
 })();
+
+export const CACHE_DIR = (() => {
+    switch (os.platform()) {
+        case "win32":
+            return path.join(process.env.APPDATA || "", "pacm-cache");
+        case "darwin":
+            return "/usr/local/lib/pacm-cache";
+        case "linux":
+            return "/usr/local/lib/pacm-cache";
+        default:
+            throw new Error("Unsupported operating system");
+    }
+})();
